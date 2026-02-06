@@ -32,12 +32,17 @@ include 'data.inc.php';
            <select name="genre" class="form__input form__select">
               <option>Choose genre</option> 
 
+              <?php echo createOptions($genres); ?>
+
            </select>
        </p>
        <p class="form__row"> 
            <label>Subject</label><br/>
+           
            <select name="subject" class="form__input form__select">
               <option>Choose subject</option> 
+
+              <?php echo createOptions($subjects); ?>
 
            </select>
        </p>
