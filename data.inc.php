@@ -10,4 +10,10 @@ $links = [
 
 ];
 
+$genres = ["Abstract", "Baroque", "Gothic", "Renaissance"];
+
+$subjects = ["Animals", "Landscape", "People"];
+
+
+
 ?>

@@ -1,7 +1,7 @@
 <html>
-  
+
 <?php
-include "data.inc.php";
+include 'data.inc.php';
 ?>
   
 
