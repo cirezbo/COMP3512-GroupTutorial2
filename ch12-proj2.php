@@ -13,8 +13,10 @@ include 'data.inc.php';
 </head>
 <body>
     
+
+
 <main>
-<form class="form" id="mainForm">
+<form action = "action-process.php" method = "post">
    <fieldset class="form__panel">
       <legend class="form__heading">Edit Art Work Details</legend>
         <p class="form__row">

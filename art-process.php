@@ -7,15 +7,25 @@ include 'data.inc.php';
 <html>
 <head lang="en">
     <meta charset="utf-8">
-    <title>Chapter 12</title>
+    <title>Chapter 12</title>   
     
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
+
+   
 <main>
     <section class="results">
+
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
+  
+    // Access data using $_POST['name_of_input']
+?>
+
+ 
 
     
     <table>
@@ -50,6 +60,15 @@ include 'data.inc.php';
       </tr>          
     </table>
     
+    <?php 
+    
+}
+
+else {
+  echo "no form data .... go to form and enter data" ;
+}
+
+    ?>
   
     </section>
 </main>       
