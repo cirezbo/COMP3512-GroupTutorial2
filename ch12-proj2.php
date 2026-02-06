@@ -16,7 +16,7 @@ include 'data.inc.php';
 
 
 <main>
-<form action = "action-process.php" method = "post">
+<form action = "art-process.php" method = "post">
    <fieldset class="form__panel">
       <legend class="form__heading">Edit Art Work Details</legend>
         <p class="form__row">
